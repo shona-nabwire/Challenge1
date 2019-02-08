@@ -1,20 +1,87 @@
+body,html{
+    font-family:rockwell;
+    padding:0;
+    margin:0;
+    height:100%;
+    
+}
+.navbar {
+position:fixed;
+background-color:#eee;
+width:250px;
+height:100%;
+float:left;
+overflow:auto;
+border-right:solid grey;
 
-body {
-    font-family:garamond;
+}
+.navbar header{
+position:fixed;
+margin:10px;
+
 }
 
-.nav-link {
-    font-size:28px;
+.navbar ul {
+    padding:0px;
+    margin:0px;
+    overflow:auto;
 }
+
+.navbar li{
+    padding:8px;
+    list-style-type:none;
+    overflow:auto;
+    
+}
+
+.navbar li a {
+text-decoration:none;
+color:#000;
+padding-top:15px;
+padding-bottom:15px;
+display:block;
+transition:0.3s;
+
+}
+.navbar li a:hover{
+color:#fff;
+background-color:#aaa;
+
+}
+
+.navbar li a[href="one"]{
+color:#fff; 
+background-color:#000;
+}
+
 
 .main-section {
-    font-size:34px;
+/*height:100%*/
+/*width:auto;*/
+margin-left:260px;
+overflow:auto;
+
 }
 
-.section-text {
-    font-size:20px;
+.section-text{
+    /*height:100%*/
+    /*width:auto;*/
+    margin-left:260px;
+   overflow:auto;
+
 }
 
-code {
-    font-size:14px;
+.section-text code{
+    display:block;
+    text-align: left;
+  white-space: pre;
+  position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: black;
+    color: orangered;
+  padding:15px;
+  margin:10px;
+    
 }
